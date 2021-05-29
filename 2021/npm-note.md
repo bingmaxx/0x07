@@ -1,5 +1,5 @@
 # npm 笔记
-> 2021-0515
+> 2021-0529
 
 `Mac` `Windows` `Linux`
 
@@ -13,7 +13,7 @@
 - 企业级 npm
 - npm 命令
 
-笔记全文分为两个部分：**npm 命令** 以及 **实操中的知识点**。
+本笔记分为三个部分：**npm 命令**、**npm 实践**、**相关生态**。省略了概念性的知识，重在信息汇总，最终需要回归文档与实践。
 
 ## npm 命令
 以下为所有命令的汇总以及本人对命令的分类，遍历所有命令，可以知道命令能够做到哪些事。实际上不同命令使用频率不同，重要性也不同。感性的来说，拥有别名的命令需要更加重视。
@@ -145,7 +145,7 @@ edit 命令使用默认编辑器打开包目录供用户编辑包信息。
 - `npm unstar`
 - `npm stars`
 
-## 实操中的知识点
+## npm 实践
 
 ### npm 配置
 npm 获取配置的优先级依次为：命令行参数、环境变量、`.npmrc` 文件、默认配置。
@@ -299,16 +299,18 @@ pkg_pro
 
 命令具体使用如下：
 ```sh
+# 用法 ①
 # 在全局 node_modules 目录创建指向当前包的符号链接
 npm link (in package dir)
-
 # 当前项目 node_modules 目录创建指向包的符号链接
 # 如果包不存在则先全局安装
 npm link <pkg>
 
+# 用法 ②
 # 当前项目 node_modules 目录创建指向指定目录的符号链接
 npm link <pkg_directory>
 
+# 等效用法 ③
 # 当前项目 node_modules 目录创建指向指定目录的符号链接
 # 同时 package.json 文件 devDependencies 中出现包名、包所在目录
 npm install <pkg_directory>
@@ -330,7 +332,7 @@ npm unpublish <pkg> --force     # 取消发布整个包
 # npm unpublist <pkg>@<version> # 删除包的指定版本
 ```
 
-最后介绍一下相关生态：
+## 相关生态
 **[node.js](https://nodejs.org/en)** is a JavaScript runtime built on Chrome's V8 JavaScript engine.（基于 Chrome 的 V8 引擎构建的 js 运行时。）
 **[npm](https://www.npmjs.com/)** (node.js package manager) nodejs 的包管理器。
 **[cnpm](https://npm.taobao.org)** 是淘宝 npm 镜像，它的仓库是 npm 仓库的一个拷贝；支持 npm 除了 publish 之外的所有命令。
