@@ -329,7 +329,7 @@ npm publish                     # 发布包
 # npm publish --tag <tag>       # 发布包并为包添加 tag
 
 npm unpublish <pkg> --force     # 取消发布整个包
-# npm unpublist <pkg>@<version> # 删除包的指定版本
+# npm unpublish <pkg>@<version> # 删除包的指定版本
 ```
 
 ## 相关生态
