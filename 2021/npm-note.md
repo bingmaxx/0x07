@@ -1,7 +1,7 @@
 # npm 笔记
 > 2021-0529
 
-`Mac` `Windows` `Linux`
+`#Mac` `#Windows` `#Linux`
 
 整理自 **npm** 官方文档（下文称文档） [docs.npmjs.com](https://docs.npmjs.com/cli/v7/commands/npm)，命令部分为 **Version 7.x**。
 
