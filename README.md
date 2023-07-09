@@ -11,7 +11,7 @@
 
 ## 时间线
 ### 2023
-- [nvm 笔记](./nvm-note.md)
+- [nvm 笔记](./2023/nvm-note.md)
 
 ### 2021
 - [npm 笔记](./2021/npm-note.md)
