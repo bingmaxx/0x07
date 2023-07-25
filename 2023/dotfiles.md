@@ -47,7 +47,7 @@ lrwxr-xr-x 1 bingmax  staff  19  4  8 12:03 .vimrc -> dotfiles/vim/.vimrc
 
 常用三个参数：
 
-- `-d` 指定 **stow 目录**。
+- `-d` 指定 **stow 目录**
 - `-t` 指定 **stow target 目录**
 - `-D` 移除已创建软连接
 
