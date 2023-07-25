@@ -11,6 +11,7 @@
 
 ## 时间线
 ### 2023
+- [dotfiles 管理](./2023/dotfiles.md)
 - [nvm 笔记](./2023/nvm-note.md)
 
 ### 2021
