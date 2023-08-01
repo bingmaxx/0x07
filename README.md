@@ -8,9 +8,11 @@
 ## tags
 `#Mac` `#Windows` `#Linux` `#Unix` `#WSL` `#POSIX`
 
+`#Canvas`
 
 ## 时间线
 ### 2023
+- [canvas 复刻锤子时钟](./2023/canvas-clock.md)
 - [dotfiles 管理](./2023/dotfiles.md)
 - [nvm 笔记](./2023/nvm-note.md)
 
