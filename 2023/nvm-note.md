@@ -72,7 +72,7 @@ rm -rf "$NVM_DIR"
 - `current` 显示当前激活的 node 版本
 - `list` = `ls` 列出已安装的版本
 - `list-remote` = `ls-remote` 列出可安装的远程版本
-- `deactivate` 撤消 nvm 对当前 shell 的影响（恢复 PATH 变量）
+- `deactivate` 撤销 nvm 对当前 shell 的影响（恢复 PATH 变量）
 - `alias` 为版本设置别名
 - `unalias` 删除别名
 - `install-latest-npm` 将当前版本上的 npm 升级到最新
