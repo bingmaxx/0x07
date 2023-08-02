@@ -2,7 +2,7 @@
 
 > 2023-0709
 
-`#Mac` `#Linux` `#WSL` `#Unix` `#POSIX`
+`#Mac` `#Linux` `#WSL` `#Unix` `#POSIX` `#nvm`
  
 **[nvm](https://github.com/nvm-sh/nvm)** **node version manager** 是 `nodejs` 版本管理工具。用以解决开发中不同项目需要的 nodejs 版本不同的问题。以下内容主要来源于 `nvm` 项目的 `README` 文档。
 

@@ -125,6 +125,7 @@ setInterval(() => {
 每隔 1 秒钟擦除一次画布，然后重新绘制表盘与指针即可。
 
 **效果**
+
 上面代码合起来运行，就能得到一个如下图所示的简单时钟：
 
 ![2023_0801_1642_demo_clock](http://md.bingmax.xyz/2023_0801_1642_demo_clock.png)
@@ -141,7 +142,6 @@ setInterval(() => {
 ![2023_0801_1630_smartisan_clock](http://md.bingmax.xyz/2023_0801_1630_smartisan_clock.png)
 
 代码放在了 [codepen](https://codepen.io/bingmax/full/PoxXqJm)，有兴趣的话请移步。
-
 
 
 [^1]: Canvas 教程

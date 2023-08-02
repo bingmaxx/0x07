@@ -8,7 +8,7 @@
 ## tags
 `#Mac` `#Windows` `#Linux` `#Unix` `#WSL` `#POSIX`
 
-`#Canvas`
+`#npm` `#nvm` `#dotfiles` `#Canvas`
 
 ## 时间线
 ### 2023

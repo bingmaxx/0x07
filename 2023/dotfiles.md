@@ -2,7 +2,7 @@
 
 > 2023-0725
 
-`#Mac` `#Linux` `#Unix`
+`#Mac` `#Linux` `#Unix` `#dotfiles`
 
 ## 介绍
 
